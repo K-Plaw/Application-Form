@@ -32,7 +32,11 @@
         </form>
     </div>
     </div>
-
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="current-year"></span> PLAW's Tech Hub. All rights reserved.</p>
+    </footer>
+    
     <script>
         // Fetch query parameters from URL and fill in job details
         const urlParams = new URLSearchParams(window.location.search);
@@ -45,6 +49,9 @@
             alert("Your application has been submitted successfully!");
             window.location.href = "https://k-plaw.github.io/Learnable-Task-11-try1/"; // Redirect to job listings
         });
+        
+        // Current Year
+        document.getElementById("current-year").textContent = new Date().getFullYear();
     </script>
 
 </body>
