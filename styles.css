@@ -58,7 +58,7 @@
     }
 
     /* Submit Button */
-    .submit-button {
+    .submit-button-a {
         width: 100%;
         background-color: #6a0dad;
         color: white;
@@ -70,12 +70,12 @@
         transition: background-color 0.3s ease, transform 0.2s ease;
     }
 
-    .submit-button:hover {
+    .submit-button-a:hover {
         background-color: #540b9d;
         transform: translateY(-2px);
     }
 
-    .submit-button:active {
+    .submit-button-a:active {
         transform: translateY(0);
     }
 
@@ -90,3 +90,5 @@
         color: #555;
         width: 100%;
     }
+
+/*Thank You For Your Time! I really Appreciate*/
