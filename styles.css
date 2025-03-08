@@ -107,6 +107,16 @@ button:hover {
   background-color: #0056b3;
 }
 
+/*APPLICATION FORM*/
+h2.hthe2{
+  text-align: center;
+}
+input, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+
 /* Job Application Form Styles */
 /* Form Container */
 .form-container {
