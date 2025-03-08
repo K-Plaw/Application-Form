@@ -108,6 +108,9 @@ button:hover {
 }
 
 /*APPLICATION FORM*/
+div.allc{
+  text-allign: center;
+}
 h2.hthe2{
   text-align: center;
 }
@@ -115,7 +118,13 @@ input, textarea {
             width: 100%;
             margin-bottom: 10px;
             padding: 8px;
-        }
+            border-radius: 12px;
+}
+.submit-button-a {
+  display: block;
+  margin: 0 auto;
+}
+
 
 /* Job Application Form Styles */
 /* Form Container */
